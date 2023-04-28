@@ -1,23 +1,23 @@
 @import '../../main.scss';
 
 .services{
+    display: flex;
+    justify-content: center;
     
+    padding: 7rem 10rem;
+
     background-color: $main-background-color;
 
     box-sizing: border-box;
     height: 100%;
 
     .services_wrapper{
-
+        height: 100%;
+        width: 100%;
     }
 
     .services_title{
-        font-family: "Cy Grotesk";
-        font-size: 12rem;
-        text-transform: uppercase;
-        font-weight: 900;
-        font-style: normal;
-        color: $primary-text-color;
+        
     }
 
     .services_subtitle{
@@ -36,4 +36,86 @@
         justify-content: center;
 
     }
+
+    .services_list{
+        // display: grid;
+        // grid-template-columns: repeat(3, 1fr);
+        // gap: 7rem;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .services_card{
+        display: flex;
+
+        height: 100%;
+        width: 100%;
+        border: solid;
+        
+        margin-right: 10rem;
+
+        background-color: $primary-text-color;
+        color: $main-background-color;
+        border-radius: 10px;
+
+        &:last-child{
+            margin-right: 0rem;
+        }
+
+        &:hover {
+            background-color: $main-background-color;
+            color: $primary-text-color;
+            border: solid;
+            transition: 0.3s;
+        }
+    }
+
+    .services_card_content{
+        height: 100%;
+        width: 100%;
+        padding: 2rem;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services_card_title{
+        display: flex;
+        justify-content: center;
+
+        font-family: "Cy Grotesk";
+        font-size: 12rem;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-style: normal;
+        
+        display: flex;
+        
+
+        padding-bottom: 4rem;
+    }
+
+    .services_card_text_wrapper{
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        flex-direction: column;
+     
+    }
+
+    .services_card_text{
+        display: flex;
+        
+        
+        font-family: "Termina";
+        font-size: 5rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-style: normal;
+        
+
+        padding-bottom: 5rem;
+    }
+
 }

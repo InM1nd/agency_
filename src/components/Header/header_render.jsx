@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div className={styles.header}>
 			<div className={styles.header_logo}> 
-				{/* <div className={styles.header_logo_img} />  */}
+				oilfaces
 			</div>
 			<div className={styles.header_ticker_wrap_2}>
 			<div className={styles.header_ticker_wrap}>

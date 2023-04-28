@@ -1,23 +1,52 @@
 @font-face {
-    font-family: "Cy Grotesk";
-    src: url("./fonts/cy-grotesk-grand-dark.woff") format("woff"), 
-    url("./fonts/cy-grotesk-grand-dark.woff2") format("woff2");
+    font-family: "Cy Grotesk";   
+    font-weight: 800;
+    src: url('../Utils/fonts/cy-grotesk-grand-dark.woff2') format("woff2"),
+    url("../Utils/fonts/cy-grotesk-grand-dark.woff") format("woff");   
   }
 
 @font-face{
-    font-family: "'Gilroy'";
-    src: url("./fonts/Gilroy-Regular.woff") format("woff"), 
-    url("./fonts/Gilroy-Regular.woff2") format("woff2");
+    font-family: "Gilroy";
+    src: url("../Utils/fonts/Gilroy-Regular.woff") format("woff"), 
+    url("../Utils/fonts/Gilroy-Regular.woff2") format("woff2");
 }
    
 @font-face{
-    font-family: "'Gilroy'";
-    src: url("./fonts/Gilroy-Medium.woff") format("woff"), 
-    url("./fonts/Gilroy-Medium.woff2") format("woff2");
+    font-family: "Gilroy";
+    src: url("../Utils/fonts/Gilroy-Medium.woff") format("woff"), 
+    url("../Utils/fonts/Gilroy-Medium.woff2") format("woff2");
 }
 
 @font-face{
-    font-family: "'Gilroy'";
-    src: url("./fonts/Gilroy-Bold.woff") format("woff"), 
-    url("./fonts/Gilroy-Bold.woff2") format("woff2");
+    font-family: "Gilroy";
+    src: url("../Utils/fonts/Gilroy-Bold.woff") format("woff"), 
+    url("../Utils/fonts/Gilroy-Bold.woff2") format("woff2");
+}
+
+@font-face{
+    font-family: "Termina";
+    font-weight: 500;
+    src: url("../Utils/fonts/TerminaTest-Regular.woff2") format("woff2"), 
+    url("../Utils/fonts/TerminaTest-Regular.woff") format("woff") ;
+}
+
+@font-face{
+    font-family: "Termina";
+    font-weight: 700;
+    src: url("../Utils/fonts/TerminaTest-Bold.woff2") format("woff2"), 
+    url("../Utils/fonts/TerminaTest-Bold.woff") format("woff") ;
+}
+
+@font-face{
+    font-family: "Termina";
+    font-weight: 800;
+    src:  url("../Utils/fonts/TerminaTest-Heavy.woff2") format("woff2"), 
+    url("../Utils/fonts/TerminaTest-Heavy.woff") format("woff");
+}
+
+@font-face{
+    font-family: "Termina";
+    font-weight: 900;
+    src:  url("../Utils/fonts/TerminaTest-Black.woff2") format("woff2"), 
+    url("../Utils/fonts/TerminaTest-Black.woff") format("woff");
 }

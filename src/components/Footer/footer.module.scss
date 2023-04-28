@@ -2,19 +2,23 @@
 
 
 .footer{
-
+    display: flex;
 
     align-items: center;
-    border: solid;
+    justify-content: center;
     flex-shrink: 0;
-    border-color: $first-border-color;
-    background-color: $main-background-color;
+    background-color: $primary-text-color;
 
-    height: 5vh;
 
-    padding: 1rem 4rem;
+    // height: 5vh; // alternative
+
+    height: 8vh;
+
+    padding: 1rem 10rem;
     
     width: 100%;
+
+    
 
       @media (max-width:1100px) {
         font-size: 4rem;
@@ -59,11 +63,12 @@
 
     .footer_info{
         display: flex;
-	    
+        width: 100%;
+        height: 100%;
         text-transform: uppercase;
 
         
-        justify-content: space-between;
+        justify-content: center;
 
         @media (max-width:500px) {
             display: inline-block;
@@ -72,64 +77,42 @@
         
     }
     
+    .footer_menu{
+      display: flex; 
+      justify-content: space-between;
+      width: 100%;
 
-    .footer_address{
-        display: flex;
-		    justify-content:  end;
-        right: 0;
-
-        
-        @media (max-width:500px) {
-            padding-top: 1rem;
-          }
-        
+      
     }
 
+    .footer_menu_link{
+      display: flex; 
+      // justify-content: space-between;
+      // width: 100%;
 
-    .footer_address_list{
-        display: flex;
-        font-family: 'Gilroy';
-        font-size: 5rem;
-        font-weight: 600;
-        color: $primary-text-color;
+      
+    }
 
+    .footer_menu_link_text{
+      font-family: 'Termina';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 47px;
+      display: flex;
+      align-items: center;
 
-        @media (max-width:1100px) {
-          font-size: 4rem;
-        }
+      color: $main-background-color;
 
-        @media (max-width:1024px) {
-            font-size: 1.2rem;
-          }
-
-        @media (max-width:767px) {
-            font-size: 0.7rem;
-          }
+      width: 100%;
+      height: 100%;
+      
+      &:hover {
+        text-decoration: underline;
+        // color: $primary-text-color;
         
-        @media (max-width:500px) {
-            flex-direction: column;
-            font-size: 1rem;
           }
     }
 
-    .footer_address_link{
-        &:not(:last-child) {
-            margin-right: 4rem;
-
-            @media (max-width:1024px) {
-            
-                margin-right: 1.5rem;  
-                
-              }
-
-            @media (max-width:767px) {
-                margin-right: 0.7rem; 
-              }
-            
-            @media (max-width:500px) {
-                
-                padding-bottom: 0.3rem;
-              }	
-		  }
-    }
+    
 }

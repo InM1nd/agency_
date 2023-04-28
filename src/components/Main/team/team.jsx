@@ -1,16 +1,18 @@
 import styles from './team.module.scss'
-import SANYA from '../../../img/other/SANYA.jpg'
-import KIRUHA from '../../../img/other/KIRUHA.png'
-import DEN from '../../../img/other/DEN.jpg'
+import TEAM from '../../../img/other/TEAM.png'
+
+// import SANYA from '../../../img/other/SANYA.jpg'
+// import KIRUHA from '../../../img/other/KIRUHA.png'
+// import DEN from '../../../img/other/DEN.jpg'
 
 const Team = () => {
     return ( 
         <section className={styles.team}>
-            <div>
+            <div className={styles.team_section}>
                 {/* <h1 className={styles.team_title}>
                     Core team
                 </h1> */}
-                <ul className={styles.team_list}>
+                {/* <ul className={styles.team_list}>
                     <li className={styles.team_card}>
                     <div className={styles.team_card_fill}>
                         <div className={styles.team_card_img}>
@@ -47,7 +49,19 @@ const Team = () => {
                         </div>
                     </div>
                     </li>
-                </ul>
+                </ul> */}
+
+                <div className={styles.team_text}>
+                    <div className={styles.team_text_paragraph}>Blue is perfect. It’s the most popular and the most relaxing colour. Blue is also the base of the color spectrum. No blue — no color: all other colors may be 
+                    created only by mixing blue, red and green. Web is pure blue: from the first site by CERN till now. Why not to create another beatiful site?
+                    </div>
+                    <div className={styles.team_text_paragraph}> No blue — no color: all other colors may be created only by mixing blue, red and green. Web is pure blue: from the
+                    first site by CERN till now. Why not to create another beatiful site?
+                    </div>
+                </div>
+                <div className={styles.team_photo_wrapper}>
+                    <img className={styles.team_photo} src={TEAM} />
+                </div>
             </div>
         </section>
         )
