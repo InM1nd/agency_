@@ -148,6 +148,26 @@ const Projects = () => {
               </div>
             </div>
                   </SwiperSlide>
+
+                  <SwiperSlide>
+                  <div className={styles.projects_img_border}>
+                <img className={styles.projects_img} src={PROJECT} alt='PROJECT'/>
+            </div>
+            <ul className={styles.projects_filter}>
+                <li className={styles.projects_filter_button}><button className={styles.projects_filter_btn}>naming</button></li>
+                <li className={styles.projects_filter_button}><button className={styles.projects_filter_btn}>strategy</button></li>
+                <li className={styles.projects_filter_button}><button className={styles.projects_filter_btn}>communication</button></li>
+                <li className={styles.projects_filter_button}><button className={styles.projects_filter_btn}>website</button></li>
+                <li className={styles.projects_filter_button}><button className={styles.projects_filter_btn}>branding</button></li>
+            </ul>
+            <div className={styles.projects_describ}>
+              <div className={styles.projects_describ_text}>
+                <h2 className={styles.projects_describ_title}>SKEPTIK
+                <p className={styles.projects_describ_info}>CREATING A PRACTICAL FITNESS PLATFORM</p>
+                </h2>
+              </div>
+            </div>
+                  </SwiperSlide>
               </Swiper>
 
         </div>
