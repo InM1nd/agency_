@@ -11,6 +11,12 @@
     box-sizing: border-box;
     height: 100%;
 
+    @media (max-width:1024px) {
+        padding: 1rem 1rem;
+        
+      }
+
+
     .services_wrapper{
         height: 100%;
         width: 100%;
@@ -43,6 +49,10 @@
         // gap: 7rem;
         display: flex;
         justify-content: space-between;
+
+        @media (max-width:550px) {
+			display: block;
+		  }
         
     }
 
@@ -57,7 +67,23 @@
 
         background-color: $primary-text-color;
         color: $main-background-color;
-        border-radius: 10px;
+        border-radius: 1rem;
+
+        @media (max-width:1024px) {
+			margin-right: 2rem;
+		  }
+
+		@media (max-width:767px) {
+			
+          }
+		
+		@media (max-width:550px) {
+			
+		  }
+
+		  @media (max-width:500px) {
+			
+		  }
 
         &:last-child{
             margin-right: 0rem;
@@ -69,6 +95,9 @@
             border: solid;
             transition: 0.3s;
         }
+
+
+        
     }
 
     .services_card_content{
@@ -78,6 +107,12 @@
 
         display: flex;
         flex-direction: column;
+
+        @media (max-width:767px) {
+			padding: 1rem;
+          }
+
+          
     }
 
     .services_card_title{
@@ -94,6 +129,30 @@
         
 
         padding-bottom: 4rem;
+
+        
+		  @media (max-width:1300px) {
+			font-size: 10rem;
+			
+		  }  
+
+		@media (max-width:1024px) {
+			font-size: 2rem;
+			
+		  }
+
+		@media (max-width:767px) {
+			font-size: 1rem;
+            padding-bottom: 1rem;
+          }
+		
+		@media (max-width:550px) {
+			font-size: 2rem;
+		  }
+
+		  @media (max-width:550px) {
+			font-size: 2rem;
+		  }
     }
 
     .services_card_text_wrapper{
@@ -101,6 +160,11 @@
         height: 100%;
         justify-content: center;
         flex-direction: column;
+
+        @media (max-width:550px) {
+			// flex-direction: row;
+            justify-content: space-around;
+		  }
      
     }
 
@@ -116,6 +180,28 @@
         
 
         padding-bottom: 5rem;
+
+       
+		  @media (max-width:1300px) {
+			font-size: 4rem;
+			padding-bottom: 4rem;
+		  }  
+
+		@media (max-width:1024px) {
+			font-size: 2rem;
+			padding-bottom: 2rem;
+		  }
+
+		@media (max-width:767px) {
+			font-size: 1rem;
+			padding-bottom: 1rem;
+          }
+		
+		@media (max-width:550px) {
+			font-size: 1rem;
+		  }
+
+		  
     }
 
 }
