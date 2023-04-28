@@ -44,12 +44,34 @@ const Projects = () => {
             <Swiper className={styles.swiper_projects}
                   modules={[Navigation, Pagination, Scrollbar, A11y, FreeMode]}
                   spaceBetween={50}
-                  slidesPerView={2}
+                  slidesPerView={1}
                   freeMode={true}
+                  breakpoints={{
+                    0 :{
+                      slidesPerView:1,
+                      spaceBetween: 10,
+                    },
+
+                    550 :{
+                      slidesPerView:1,
+                      spaceBetween: 10,
+                    },
+
+                    768 :{
+                      slidesPerView:1,
+                      spaceBetween: 20,
+                    },
+
+                    1024 :{
+                      slidesPerView:2,
+                      spaceBetween: 50,
+                    },
+                  }}
                   onSlideChange={() => console.log('slide change')}
                   onSwiper={(swiper) => console.log(swiper)}
                 >
                   <SwiperSlide>
+                    <div className={styles.projects_wrapper}>
                     <div className={styles.projects_img_border}>
                 <img className={styles.projects_img} src={PROJECT} alt='PROJECT'/>
             </div>
@@ -67,10 +89,12 @@ const Projects = () => {
                 </h2>
               </div>
             </div>
+            </div>
             </SwiperSlide>
 
-                  <SwiperSlide>
-                  <div className={styles.projects_img_border}>
+            <SwiperSlide>
+                    <div className={styles.projects_wrapper}>
+                    <div className={styles.projects_img_border}>
                 <img className={styles.projects_img} src={PROJECT} alt='PROJECT'/>
             </div>
             <ul className={styles.projects_filter}>
@@ -87,10 +111,12 @@ const Projects = () => {
                 </h2>
               </div>
             </div>
-                  </SwiperSlide>
+            </div>
+            </SwiperSlide>
 
-                  <SwiperSlide>
-                  <div className={styles.projects_img_border}>
+            <SwiperSlide>
+                    <div className={styles.projects_wrapper}>
+                    <div className={styles.projects_img_border}>
                 <img className={styles.projects_img} src={PROJECT} alt='PROJECT'/>
             </div>
             <ul className={styles.projects_filter}>
@@ -107,10 +133,12 @@ const Projects = () => {
                 </h2>
               </div>
             </div>
-                  </SwiperSlide>
+            </div>
+            </SwiperSlide>
 
-                  <SwiperSlide>
-                  <div className={styles.projects_img_border}>
+            <SwiperSlide>
+                    <div className={styles.projects_wrapper}>
+                    <div className={styles.projects_img_border}>
                 <img className={styles.projects_img} src={PROJECT} alt='PROJECT'/>
             </div>
             <ul className={styles.projects_filter}>
@@ -127,10 +155,12 @@ const Projects = () => {
                 </h2>
               </div>
             </div>
-                  </SwiperSlide>
+            </div>
+            </SwiperSlide>
 
-                  <SwiperSlide>
-                  <div className={styles.projects_img_border}>
+            <SwiperSlide>
+                    <div className={styles.projects_wrapper}>
+                    <div className={styles.projects_img_border}>
                 <img className={styles.projects_img} src={PROJECT} alt='PROJECT'/>
             </div>
             <ul className={styles.projects_filter}>
@@ -147,27 +177,9 @@ const Projects = () => {
                 </h2>
               </div>
             </div>
-                  </SwiperSlide>
-
-                  <SwiperSlide>
-                  <div className={styles.projects_img_border}>
-                <img className={styles.projects_img} src={PROJECT} alt='PROJECT'/>
             </div>
-            <ul className={styles.projects_filter}>
-                <li className={styles.projects_filter_button}><button className={styles.projects_filter_btn}>naming</button></li>
-                <li className={styles.projects_filter_button}><button className={styles.projects_filter_btn}>strategy</button></li>
-                <li className={styles.projects_filter_button}><button className={styles.projects_filter_btn}>communication</button></li>
-                <li className={styles.projects_filter_button}><button className={styles.projects_filter_btn}>website</button></li>
-                <li className={styles.projects_filter_button}><button className={styles.projects_filter_btn}>branding</button></li>
-            </ul>
-            <div className={styles.projects_describ}>
-              <div className={styles.projects_describ_text}>
-                <h2 className={styles.projects_describ_title}>SKEPTIK
-                <p className={styles.projects_describ_info}>CREATING A PRACTICAL FITNESS PLATFORM</p>
-                </h2>
-              </div>
-            </div>
-                  </SwiperSlide>
+            </SwiperSlide>
+             
               </Swiper>
 
         </div>
