@@ -103,7 +103,7 @@ const Projects = () => {
             </div >
             <div className={styles.projects_describ}>
               <div className={styles.projects_describ_text}>
-                <div  className={styles.projects_describ_title}>SKEPTIK </div >
+                <div  className={styles.projects_describ_title}>OILFACES </div >
                 <div  className={styles.projects_describ_info}>CREATING A PRACTICAL FITNESS PLATFORM</div >
               </div>
             </div>
