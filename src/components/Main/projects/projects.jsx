@@ -23,7 +23,7 @@ const Projects = () => {
                   modules={[Navigation, Pagination, Scrollbar, A11y, FreeMode]}
                   spaceBetween={30}
                   slidesPerView={1}
-                  freeMode={true}
+                  // freeMode={true}
                   direction={"horizontal"}
                   breakpoints={{
 
@@ -55,7 +55,7 @@ const Projects = () => {
                     0 :{
                       slidesPerView:1,
                       spaceBetween: 40,
-                      direction: "horizontal",
+                      // direction: "vertical",
                     },
                     
   
@@ -74,8 +74,8 @@ const Projects = () => {
                 <a className={styles.projects_filter_button}>branding</a>
                 <a className={styles.projects_filter_button}>product dev</a>
                 <a className={styles.projects_filter_button}>communication</a>
-                <a className={styles.projects_filter_button}>custom solution</a>    
-                <a className={styles.projects_filter_button}>strategy</a>       
+                <a className={styles.projects_filter_button}>strategy</a> 
+                <a className={styles.projects_filter_button}>custom solution</a>         
             </div >
             <div className={styles.projects_describ}>
               <div className={styles.projects_describ_text}>
