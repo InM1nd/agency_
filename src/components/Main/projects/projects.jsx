@@ -26,32 +26,41 @@ const Projects = () => {
                   freeMode={true}
                   direction={"horizontal"}
                   breakpoints={{
-                    0 :{
-                      slidesPerView:1,
-                      spaceBetween: 10,
-                      direction: "vertical",
-                    },
 
-                    550 :{
-                      slidesPerView:1,
-                      spaceBetween: 10,
-                      direction: "vertical",
-                    },
-
-                    768 :{
-                      slidesPerView:1,
-                      spaceBetween: 40,
-                      direction: "vertical",
-                    },
+                    
 
                     1024 :{
                       slidesPerView:2,
                       spaceBetween: 50,
                       direction:"horizontal",
                     },
+                    768 :{
+                      slidesPerView:1,
+                      spaceBetween: 40,
+                      direction: "horizontal",
+                    },
+
+                    550 :{
+                      slidesPerView:1,
+                      spaceBetween: 40,
+                      direction: "horizontal",
+                    },
+
+                    500 :{
+                      slidesPerView:1,
+                      spaceBetween: 40,
+                      direction: "horizontal",
+                    },
+
+                    0 :{
+                      slidesPerView:1,
+                      spaceBetween: 40,
+                      direction: "horizontal",
+                    },
+                    
+  
                   }}
-                  onSlideChange={() => console.log('slide change')}
-                  onSwiper={(swiper) => console.log(swiper)}
+                  
                 >
                   
               <SwiperSlide>
