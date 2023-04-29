@@ -29,11 +29,13 @@ const Projects = () => {
                     0 :{
                       slidesPerView:1,
                       spaceBetween: 10,
+                      direction: "vertical",
                     },
 
                     550 :{
                       slidesPerView:1,
                       spaceBetween: 10,
+                      direction: "vertical",
                     },
 
                     768 :{
