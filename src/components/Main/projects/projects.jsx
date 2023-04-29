@@ -95,11 +95,11 @@ const Projects = () => {
                       <img className={styles.projects_img} src={Teple} alt='PROJECT'/>
                   </div>
             <div className={styles.projects_filter}>
-                <a className={styles.projects_filter_button}>branding</a>
-                <a className={styles.projects_filter_button}>branding</a>
-                <a className={styles.projects_filter_button}>branding</a>
-                <a className={styles.projects_filter_button}>branding</a>   
-                <a className={styles.projects_filter_button}>branding</a>      
+            <a className={styles.projects_filter_button}>branding</a>
+                <a className={styles.projects_filter_button}>product dev</a>
+                <a className={styles.projects_filter_button}>communication</a>
+                <a className={styles.projects_filter_button}>strategy</a> 
+                <a className={styles.projects_filter_button}>custom solution</a>        
             </div >
             <div className={styles.projects_describ}>
               <div className={styles.projects_describ_text}>
@@ -117,11 +117,11 @@ const Projects = () => {
                 <img className={styles.projects_img} src={Teple} alt='PROJECT'/>
                   </div>
             <div className={styles.projects_filter}>
-                <a className={styles.projects_filter_button}>branding</a>
-                <a className={styles.projects_filter_button}>branding</a>
-                <a className={styles.projects_filter_button}>branding</a>
-                <a className={styles.projects_filter_button}>branding</a>   
-                <a className={styles.projects_filter_button}>branding</a>      
+            <a className={styles.projects_filter_button}>branding</a>
+                <a className={styles.projects_filter_button}>product dev</a>
+                <a className={styles.projects_filter_button}>communication</a>
+                <a className={styles.projects_filter_button}>strategy</a> 
+                <a className={styles.projects_filter_button}>custom solution</a>         
             </div >
             <div className={styles.projects_describ}>
               <div className={styles.projects_describ_text}>
@@ -140,11 +140,11 @@ const Projects = () => {
                 <img className={styles.projects_img} src={Teple} alt='PROJECT'/>
                   </div>
             <div className={styles.projects_filter}>
-                <a className={styles.projects_filter_button}>branding</a>
-                <a className={styles.projects_filter_button}>branding</a>
-                <a className={styles.projects_filter_button}>branding</a>
-                <a className={styles.projects_filter_button}>branding</a>   
-                <a className={styles.projects_filter_button}>branding</a>      
+            <a className={styles.projects_filter_button}>branding</a>
+                <a className={styles.projects_filter_button}>product dev</a>
+                <a className={styles.projects_filter_button}>communication</a>
+                <a className={styles.projects_filter_button}>strategy</a> 
+                <a className={styles.projects_filter_button}>custom solution</a>         
             </div >
             <div className={styles.projects_describ}>
               <div className={styles.projects_describ_text}>
