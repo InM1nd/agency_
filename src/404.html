@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Page Not Found</title>
+  </head>
+  <body>
+    <script>
+      var segmentCount = 0;
+      var location = window.location;
+      var parts = location.pathname.split('/');
+      segmentCount = parts.length - 1;
+      if (segmentCount === 0) {
+        location.href = location.href + '/';
+      } else {
+        var url = location.href.replace(/\/$/, '');
+        url = url.replace(/(\/)[^\/]*$/, '$1');
+        url = url + '/index.html';
+        location.href = url;
+      }
+    </script>
+  </body>
+</html>
