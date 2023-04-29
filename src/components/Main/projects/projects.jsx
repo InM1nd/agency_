@@ -92,7 +92,7 @@ const Projects = () => {
             <SwiperSlide>
                   <div className={styles.projects_wrapper}>
                     <div className={styles.projects_img_border}>
-                <img className={styles.projects_img} src={Teple} alt='PROJECT'/>
+                      <img className={styles.projects_img} src={Teple} alt='PROJECT'/>
                   </div>
             <div className={styles.projects_filter}>
                 <a className={styles.projects_filter_button}>branding</a>

@@ -1,14 +1,15 @@
 import styles from './header.module.scss'
 
 import BUTTON from '../../img/other/BUTTON.png'
+import { Link } from 'react-router-dom'
 
 
 const Header = () => {
     return (
         <div className={styles.header}>
-			<div className={styles.header_logo}> 
+			<Link to="/agency_" className={styles.header_logo}> 
 				oilfaces
-			</div>
+			</Link>
 			<div className={styles.header_ticker_wrap_2}>
 			<div className={styles.header_ticker_wrap}>
 			<div className={styles.header_ticker}>
