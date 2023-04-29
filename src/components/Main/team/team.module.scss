@@ -8,7 +8,24 @@
     height: 100%;
     width: 100%;
 
+    padding: 7rem 10rem;
+
+    @media (max-width:1100px) {
+      padding: 1rem 1rem;
+    }
+
+    @media (max-width:1024px) {
+      padding: 1rem 1rem;
+      }
+
+    @media (max-width:767px) {
+      width: 100%;
+        
+      }
     
+    @media (max-width:500px) {
+      width: 100%;
+      }
 
     .team_title{
         font-family: "Cy Grotesk";
@@ -28,39 +45,6 @@
 			display: block;
 		  }
     }
-
-    // .team_list{
-    //     display: grid;
-    //     grid-template-columns: repeat(3, 1fr);
-    //     gap: 5rem;
-    // }
-
-    // .team_card{
-    //     display: flex;
-    //     align-items: center;
-        
-    // }
-
-    // .team_card_fill{
-
-    // }
-
-    // .team_card_img{
-    //     height: 100%;
-    //     border-radius: 1rem;
-    // }
-
-    // .team_card_name{
-    //     font-size: 9rem;
-    //     font-weight: 700;
-    //     color: $primary-text-color;
-    // }
-
-    // .team_card_text{
-    //     font-size: 5rem;
-    //     font-weight: 400;
-    //     color: $primary-text-color;
-    // }
     
 
     .team_text{

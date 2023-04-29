@@ -79,20 +79,30 @@ $duration: 50s;  //return to 40s
 		// background-position: center;
 		
 		
-		
-		
-		@media (max-width:1500px) {
+		@media (max-width:2150px) {
 			font-size: 35rem;
 			line-height: 0rem;
 			
 		  }
-		  @media (max-width:1300px) {
+		
+		  @media (max-width:1900px) {
+			font-size: 30rem;
+			line-height: 0rem;
+			
+		  }
+		
+		@media (max-width:1500px) {
 			font-size: 28rem;
+			line-height: 0rem;
+			
+		  }
+		  @media (max-width:1200px) {
+			font-size: 24rem;
 			
 		  }  
 
 		@media (max-width:1024px) {
-			font-size: 8rem;
+			font-size: 7rem;
 			
 		  }
 
