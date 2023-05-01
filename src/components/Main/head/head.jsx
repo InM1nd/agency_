@@ -1,6 +1,8 @@
 import React, { useRef, useEffect } from 'react';
 
-import LOGO from '../../../img/other/MAIN_PIC.jpg'
+// import LOGO from '../../../img/other/MAIN_PIC.jpg'
+
+import LOGO from '../../../img/other/333.jpg'
 import ROFL from '../../../img/other/555.jpg'
 import styles from './head.module.scss'
 
@@ -10,7 +12,7 @@ const Head = () => {
     <section className={styles.main}>
       <div className={styles.main_services}>
       <picture className={styles.main_logo_img}>
-        <source media="(max-width: 550px)" srcset={ROFL} />
+        {/* <source media="(max-width: 550px)" srcset={ROFL} /> */}
         <img className={styles.main_logo_img} src={LOGO}/>
       </picture>
       </div>
