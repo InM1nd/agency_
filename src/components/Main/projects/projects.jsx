@@ -35,25 +35,25 @@ const Projects = () => {
                       direction:"horizontal",
                     },
                     768 :{
-                      slidesPerView:1,
+                      slidesPerView:1.05,
                       spaceBetween: 40,
                       direction: "horizontal",
                     },
 
                     550 :{
-                      slidesPerView:1,
+                      slidesPerView:1.05,
                       spaceBetween: 40,
                       direction: "horizontal",
                     },
 
                     500 :{
-                      slidesPerView:1,
+                      slidesPerView:1.05,
                       spaceBetween: 40,
                       direction: "horizontal",
                     },
 
                     0 :{
-                      slidesPerView:1,
+                      slidesPerView:1.07,
                       spaceBetween: 40,
                       // direction: "vertical",
                     },

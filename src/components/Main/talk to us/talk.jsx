@@ -17,7 +17,7 @@ const Talk = () => {
         <address className={styles.talk_address}>
         {/* <p className={styles.footer_address_title}>contact</p> */}
         <ul className={styles.talk_address_list}>  
-            <li className={styles.talk_address_link}><a className={styles.talk_address_link_link} href="mailto:hello@bcs.com">hello@bcs.com</a></li>
+            <li className={styles.talk_address_link}><a className={styles.talk_address_link_link} href="mailto:hello@oilfaces.com">hello@oilfaces.com</a></li>
             <li className={styles.talk_address_link}><a className={styles.talk_address_link_link} href="tel:+31 999 999 ">+31 999 999</a></li>
         </ul>
         </address>
