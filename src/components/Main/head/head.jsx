@@ -11,9 +11,9 @@ const Head = () => {
   return (
     <section className={styles.main}>
       <div className={styles.main_services}>
-      <picture className={styles.main_logo_img}>
+      {/* <picture className={styles.main_logo_img}> */}
         {/* <source media="(max-width: 550px)" srcset={ROFL} /> */}
-        <img className={styles.main_logo_img} src={LOGO}/>
+        {/* <img className={styles.main_logo_img} src={LOGO}/> */}
       </picture>
       </div>
     </section>
