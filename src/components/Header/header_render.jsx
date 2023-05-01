@@ -1,15 +1,17 @@
 import styles from './header.module.scss'
 
-import BUTTON from '../../img/other/BUTTON.png'
+import BUTTON from '../../img/other/LOGO 2.png'
 import { Link } from 'react-router-dom'
 
 
 const Header = () => {
     return (
         <div className={styles.header}>
-			<Link to="/agency_" className={styles.header_logo}> 
-				oilfaces
+			<div className={styles.header_logo_wrapper} > 
+			<Link className={styles.header_logo_link} to="/agency_"> 
+				<img className={styles.header_logo} src={BUTTON} />
 			</Link>
+			</div>
 			<div className={styles.header_ticker_wrap_2}>
 			<div className={styles.header_ticker_wrap}>
 			<div className={styles.header_ticker}>

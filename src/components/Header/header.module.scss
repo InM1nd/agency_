@@ -45,15 +45,31 @@ $duration: 50s;  //return to 40s
 	// position: relative;
 
 
-	height: 25vh;  // IF LOGO HERE
+	  // IF LOGO HERE
 
 	
 
 	@media (max-width:767px) {
 		
 	  }
-	
 
+	  
+	
+	.header_logo_wrapper{
+		height: 17vh;
+		padding: 30px 20px;
+
+
+		@media (max-width:500px) {
+			
+			height: 100%;
+		   
+		  }
+	}
+
+	.header_logo_link{
+		
+	}
 	
 	.header_logo{
 		display: flex;
@@ -66,8 +82,8 @@ $duration: 50s;  //return to 40s
 		
 		font-family: 'Cy Grotesk';
 		font-weight: 800;
-		font-size: 40rem;
-		line-height: 22.8rem;
+		font-size: 240px;
+		// line-height: 288px;
 		text-transform: uppercase;
 		color: $primary-text-color;
 		
@@ -79,39 +95,34 @@ $duration: 50s;  //return to 40s
 		// background-position: center;
 		
 		
-		@media (max-width:2150px) {
-			font-size: 35rem;
-			line-height: 0rem;
+		
+		
+		@media (max-width:1850px) {
 			
 		  }
 		
-		  @media (max-width:1900px) {
-			font-size: 30rem;
-			line-height: 0rem;
+		@media (max-width:1550px) {
 			
 		  }
-		
-		@media (max-width:1500px) {
-			font-size: 27rem;
-			line-height: 0rem;
+
+		@media (max-width:1200px) {
 			
-		  }
-		  @media (max-width:1200px) {
-			font-size: 22rem;
+		  }  
+
+		@media (max-width:1200px) {
 			
 		  }  
 
 		@media (max-width:1024px) {
-			font-size: 6rem;
 			
 		  }
 
 		@media (max-width:767px) {
-			font-size: 3rem;
+			
           }
 		
 		@media (max-width:550px) {
-			font-size: 2rem;
+			
 		  }
 
 		  @media (max-width:500px) {
@@ -125,59 +136,72 @@ $duration: 50s;  //return to 40s
 		}
 	}
 
-	.header_switcher{
-		padding: 0 8rem;
+	// .header_switcher{
+	// 	padding: 0 8rem;
 
 
-		@media (max-width:1024px) {
-			padding: 1rem;
+	// 	@media (max-width:1024px) {
+	// 		padding: 1rem;
 	
-		  }
+	// 	  }
 
-		@media (max-width:767px) {
-            padding: 0.5rem;
-          }
+	// 	@media (max-width:767px) {
+    //         padding: 0.5rem;
+    //       }
 		
-		@media (max-width:500px) {
-			display: none;
+	// 	@media (max-width:500px) {
+	// 		display: none;
 			
-		  }
-	}
+	// 	  }
+	// }
 
 	.header_ticker_wrap{
 		display: flex;
-		
+
+
   		overflow: hidden;
-  		height: 8rem;
+  		height: 8vh;
   		background-color: $primary-text-color; 
   		padding-left: 100%;
   		box-sizing: content-box;
 		white-space: nowrap;
 
 		@media (max-width:1024px) {
-			height: 3rem;	
+				
 		}
 
 	    @media (max-width:767px) {
-			height: 2rem;
+			
 		}
 	  
 	    @media (max-width:500px) {
-			height: 1rem;
+			height: 100%;
 		}
 
 		&_2{
 			width: 100%;
-		
+			
+			border: 3px solid;
+			border-color: $main-background-color;
+
+			@media (max-width:500px) {
+			
+				height: 100%;
+			   
+			  }
 		}
 	}
 
 	.header_ticker{
 		// bottom: 0;
 		// position: absolute;
-		display: inline-block;
-		height: 8rem;
-		line-height: 8rem;  
+		justify-content: center;
+    	display: flex;
+    	align-items: center;
+		
+		
+		height: 8vh;
+		line-height: 8vh;  
 		white-space: nowrap;
 		padding-right: 100%;
 		box-sizing: content-box;
@@ -192,18 +216,19 @@ $duration: 50s;  //return to 40s
 				animation-duration: $duration;	
 	
 				@media (max-width:1024px) {
-					height: 3rem;	
-					line-height: 3rem; 
+					// height: 3rem;	
+					// line-height: 3rem; 
 				}
 		
 				@media (max-width:767px) {
-					height: 2rem;
-					line-height: 2rem; 
+					// height: 2rem;
+					// line-height: 2rem; 
 				}
 			  
-				@media (max-width:500px) {
-					height: 1rem;
-					line-height: 1rem; 
+				@media (max-width:550px) {
+					// height: 1rem;
+					// line-height: 1rem; 
+					height: 100%;
 				}
 
 	&_item{
@@ -213,23 +238,21 @@ $duration: 50s;  //return to 40s
 	  font-family: 'Termina';
 	  font-weight: 500;
 	  text-transform: uppercase;
-      padding: 0 4rem;
-      font-size: 4rem;
+      padding: 0 10px;
+      font-size: 40px;
+	  line-height: 48px;
       color: $main-background-color; 
 	  
 	  @media (max-width:1024px) {
-		padding: 0 2rem;
-		font-size: 2rem;
+		
 		}
 
 	  @media (max-width:767px) {
-		padding: 0 1rem;
-		font-size: 1.5rem;
+		
 	    }
   
 	  @media (max-width:500px) {
-		padding: 0 0.5rem;
-		font-size: 0.7rem;
+		
 	    }
 
 		}
