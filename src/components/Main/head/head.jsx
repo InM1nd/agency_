@@ -14,7 +14,7 @@ const Head = () => {
       {/* <picture className={styles.main_logo_img}> */}
         {/* <source media="(max-width: 550px)" srcset={ROFL} /> */}
         {/* <img className={styles.main_logo_img} src={LOGO}/> */}
-      </picture>
+      {/* </picture> */}
       </div>
     </section>
   );
