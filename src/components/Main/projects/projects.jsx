@@ -51,8 +51,8 @@ const Projects = () => {
                     },
 
                     0 :{
-                      slidesPerView:1.07,
-                      spaceBetween: 40,
+                      slidesPerView:1.1,
+                      spaceBetween: 30,
                       // direction: "vertical",
                     },
                     

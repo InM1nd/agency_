@@ -17,6 +17,10 @@
     font-family: "Termina";
 
      margin-bottom: 9vh;   
+
+     @media (max-width:768px) {
+      margin-bottom: 3vh;     
+     }
     
     .projects_wrapper{
         width: 100%;
