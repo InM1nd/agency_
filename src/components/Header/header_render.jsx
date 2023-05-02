@@ -9,7 +9,9 @@ const Header = () => {
         <div className={styles.header}>
 			<div className={styles.header_logo_wrapper} > 
 			<Link className={styles.header_logo_link} to="/agency_"> 
-				<img className={styles.header_logo} src={BUTTON} />
+				{/* <img className={styles.header_logo} src={BUTTON} /> */}
+
+			 	oilfaces
 			</Link>
 			</div>
 			<div className={styles.header_ticker_wrap_2}>
