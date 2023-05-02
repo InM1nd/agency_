@@ -50,3 +50,10 @@
     src:  url("../Utils/fonts/TerminaTest-Black.woff2") format("woff2"), 
     url("../Utils/fonts/TerminaTest-Black.woff") format("woff");
 }
+
+@font-face{
+    font-family: "Roboto Flex";
+    font-weight: 500;
+    src:  url("../Utils/fonts/RobotoFlex-Regular.woff2") format("woff2"), 
+    url("../Utils/fonts/RobotoFlex-Regular.woff") format("woff");
+}
