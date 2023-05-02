@@ -46,9 +46,9 @@
       @media (max-width:550px) {
         display: flex;
         align-items: center;
-        height: 100%;
+        height: auto;
 
-        position:inherit;
+        position:absolute;
         // bottom: 0;
         // z-index: 1;
        
@@ -105,6 +105,8 @@
 
       &:last-child{
         border-right: 3px solid $main-background-color;
+        
+        
       }
 
       @media (max-width:550px) {
@@ -114,6 +116,7 @@
 
         &:first-child{
           border-right: 3px solid $main-background-color;
+          border-top: 3px solid $main-background-color;
         }
       }
       
