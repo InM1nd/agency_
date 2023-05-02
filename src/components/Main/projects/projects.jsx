@@ -27,10 +27,8 @@ const Projects = () => {
                   direction={"horizontal"}
                   breakpoints={{
 
-                    
-
                     1024 :{
-                      slidesPerView:2,
+                      slidesPerView:2.1,
                       spaceBetween: 50,
                       direction:"horizontal",
                     },

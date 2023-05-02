@@ -8,28 +8,33 @@
     height: 100%;
     width: 100%;
 
-    padding: 7rem 10rem;
+    padding: 30px;
+
+    margin-bottom: 9vh;  
 
     @media (max-width:1100px) {
-      padding: 1rem 1rem;
+      padding: 10px;
     }
 
     @media (max-width:1024px) {
-      padding: 1rem 1rem;
+      
       }
 
-    @media (max-width:767px) {
+    @media (max-width:768px) {
+      margin-bottom: 0; 
       width: 100%;
         
       }
+
+    @media (max-width:550px) {
     
-    @media (max-width:500px) {
-      width: 100%;
-      }
+        }
+    
+    
 
     .team_title{
         font-family: "Cy Grotesk";
-        font-size: 12rem;
+        font-size: 120px;
         text-transform: uppercase;
         font-weight: 900;
         font-style: normal;
@@ -39,10 +44,12 @@
     .team_section{
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        
 
-        @media (max-width:550px) {
-			display: block;
+        @media (max-width:768px) {
+			  
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
 		  }
     }
     
@@ -56,79 +63,86 @@
         font-family: 'Termina';
         font-style: normal;
         font-weight: 500;
-        font-size: 5rem;
+        font-size: 25px;
         
-        
+        text-align: justify;
         align-items: center;
         text-transform: uppercase;
 
         width: 100%;
         
 		  @media (max-width:1300px) {
-			font-size: 4rem;
+			font-size: 18px;
 			
 		  }  
 
 		@media (max-width:1024px) {
-			font-size: 1.5rem;
+			font-size: 15px;
 			
 		  }
 
 		@media (max-width:767px) {
-			font-size: 0.8rem;
+			
           }
 		
 		@media (max-width:550px) {
-			font-size: 0.8rem;
+			
 		  }
 
 		  @media (max-width:500px) {
-			font-size: 0.8rem;
+			
 		  }
     }    
 
     .team_text_paragraph{
         
         @media (max-width:550px) {
-            padding-bottom: 1rem;
+            padding-bottom: 10px;
           }
 
         &:last-child{
-            padding-top: 5rem;
+            padding-top: 30px;
 
             @media (max-width:550px) {
-                padding-top: 0;
+                padding-top: 10px;
               }
 
         }
     }
 
     .team_photo_wrapper{
-        padding-left: 6rem;
+        padding-left: 60px;
 
-        height: 100%;
+        max-height: 100%;
         width: 100%;
 
+
+        display: flex;
+        align-items: center;
+      
+
         @media (max-width:1024px) {
-			padding-left: 3rem;
+			padding-left: 30px;
 			
 		  }
 
 		@media (max-width:767px) {
-			padding-left: 1rem;
+			padding-left: 0px;
+      padding-bottom: 20px;
           }
 		
 		@media (max-width:550px) {
-			padding-left: 0;
+
+      
 		  }
 
     }
 
     .team_photo{
         border: solid;
-        border-radius: 1rem;
+        border-radius: 10px;
 
-        height: 100%;
+        // height: 800px;
         width: 100%;
 
         @media (max-width:550px) {
