@@ -29,14 +29,11 @@ html {
   //   font-size: calc(100vh/768*10);
   // }
 
-  // @media (max-width:767px) {
-  //   font-size: calc(100vh/500*10);
-  // }
-
-  @media (max-width:550px) {
+  @media (max-width:767px) {
     
-    overflow-y:scroll;
+      overflow-y:scroll;
   }
+
 }
 
 
