@@ -48,7 +48,9 @@
         align-items: center;
         height: auto;
 
-        position:absolute;
+        position: inherit;
+
+        // position:absolute;
         // bottom: 0;
         // z-index: 1;
        
