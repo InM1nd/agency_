@@ -2,7 +2,7 @@
 
 .talk{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 
     margin-bottom: 7vh;    
@@ -106,7 +106,7 @@
     .talk_address_list{
         font-family: 'Termina';
         font-size: 50px;
-        font-weight: 600;
+        font-weight: 500;
         text-transform: uppercase;
         color: $primary-text-color;
         
@@ -155,7 +155,7 @@
       
       
       color: $main-background-color;
-      border-radius: 10px;
+      border-radius: 30px;
 
       @media (max-width:550px) {
         
@@ -175,7 +175,7 @@
       
       
       color: $main-background-color;
-      border-radius: 10px;
+      border-radius: 30px;
 
       width: 100%;
       background-color: $primary-text-color;

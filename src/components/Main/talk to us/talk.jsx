@@ -12,12 +12,12 @@ const Talk = () => {
             <ul className={styles.talk_address_list}>
             <li className={styles.talk_address_link}><a className={styles.talk_address_link_link}href='/'>instagram</a></li>
             <li className={styles.talk_address_link}><a className={styles.talk_address_link_link} href='/'>behance</a></li>
-            <li className={styles.talk_address_link}><a className={styles.talk_address_link_link}href='/'>linkedin</a></li>
+            <li className={styles.talk_address_link}><a className={styles.talk_address_link_link}href='https://www.linkedin.com/company/oilfaces/'>linkedin</a></li>
         </ul>
         <address className={styles.talk_address}>
         {/* <p className={styles.footer_address_title}>contact</p> */}
         <ul className={styles.talk_address_list}>  
-            <li className={styles.talk_address_link}><a className={styles.talk_address_link_link} href="mailto:hello@oilfaces.com">hello@oilfaces.com</a></li>
+            <li className={styles.talk_address_link}><a className={styles.talk_address_link_link} href="mailto:hi@oilfaces.com">hello@oilfaces.com</a></li>
             <li className={styles.talk_address_link}><a className={styles.talk_address_link_link} href="tel:+31 999 999 ">+31 999 999</a></li>
         </ul>
         </address>

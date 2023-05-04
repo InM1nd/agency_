@@ -28,7 +28,7 @@ const Projects = () => {
                   breakpoints={{
 
                     1024 :{
-                      slidesPerView:2.1,
+                      slidesPerView:2.05,
                       spaceBetween: 50,
                       direction:"horizontal",
                     },
@@ -83,7 +83,6 @@ const Projects = () => {
               </div>
             </div>
             </div>
-          
 
             </SwiperSlide>
 

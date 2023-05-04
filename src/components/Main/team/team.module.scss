@@ -43,7 +43,7 @@
 
     .team_section{
         display: flex;
-        align-items: center;
+        
         
 
         @media (max-width:768px) {
@@ -70,6 +70,8 @@
         text-transform: uppercase;
 
         width: 100%;
+
+        padding: 40px;
         
 		  @media (max-width:1300px) {
 			font-size: 18px;
@@ -118,7 +120,7 @@
 
 
         display: flex;
-        align-items: center;
+        
       
 
         @media (max-width:1024px) {
