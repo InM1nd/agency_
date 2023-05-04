@@ -19,9 +19,14 @@
     margin-bottom: 2vh;   
 
      @media (max-width:768px) {
-      margin-bottom: 3vh;     
+      margin-bottom: 6vh;    
      }
-    
+     
+     @media (max-width:550px) {
+      margin-bottom: 2vh;    
+     }
+
+
     .projects_wrapper{
         width: 100%;
         height: 100%;
@@ -63,7 +68,7 @@
 
     .swiper_projects{
         height: 100%;
-        padding: 0px 30px;
+        padding: 30px;
         
         @media (max-width:1024px) {
             padding: 10px 30px ;
@@ -197,15 +202,19 @@
       
       
 
-      height: 600px;
+      height: 40vh;
       width: 100%;
 
+      @media (max-height:900px) {
+        height: 28vh;
+          } 
+
       @media (max-width:1820px) {
-        height: 450px;
+        height: 28vh;
           } 
       
       @media (max-width:1024px) {
-        height: 70%;
+        height: 25vh;
           } 
 
           @media (max-width:768px) {
@@ -253,7 +262,7 @@
   
     .projects_describ_title{
         font-family: "Termina";
-        font-size: 80px;
+        font-size: 70px;
         font-weight: 700;
         color: $primary-text-color;
 
@@ -284,7 +293,7 @@
 
     .projects_describ_info{
         font-family: "Termina";
-        font-size: 30px;
+        font-size: 28px;
         font-weight: 500;
 
         @media (max-width:1300px) {
