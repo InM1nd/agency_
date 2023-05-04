@@ -34,7 +34,7 @@
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        
 
         @media (max-width:1024px) {
           // align-items: center;
@@ -205,9 +205,22 @@
       height: 40vh;
       width: 100%;
 
-      @media (max-height:900px) {
-        height: 28vh;
+      @media (max-height:1600px) {
+        height: 45vh;
           } 
+
+      @media (max-height:1200px) {
+        height: 40vh;
+          } 
+
+
+      @media (max-height:900px) {
+        height: 35vh;
+          } 
+
+
+
+
 
       @media (max-width:1820px) {
         height: 28vh;
