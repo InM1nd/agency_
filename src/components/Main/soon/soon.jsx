@@ -26,7 +26,7 @@ function TextRender() {
 
       const chromeMaterial = new MeshStandardMaterial({
         color: "#000000", // Базовый цвет (можете оставить белый, так как текстура будет покрывать его)
-        emissive: "#00f7f7f8" ,
+        // emissive: "#00f7f7f8" ,
         metalness: 150,     // Металличность на максимуме для эффекта хрома
         roughness: 0,     // Шероховатость на минимуме
         // wireframe: true,
