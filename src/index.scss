@@ -8,7 +8,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: $main-background-color;
+  background-color: #000000;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -43,6 +43,8 @@ body {
   place-items: center;
   height: 100vh;
   min-height: 100vh;
+
+  
 }
 
 a{
@@ -61,6 +63,4 @@ a{
 * {
   scrollbar-width: none;
 }
-
-
 

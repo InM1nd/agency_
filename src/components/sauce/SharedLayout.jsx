@@ -1,4 +1,4 @@
-import Header from '../Header/header_render'
+import Header from '../Header/header'
 import Footer from '../Footer/footer'
 import Main_Nav from '../Main/main_nav/main_nav'
 

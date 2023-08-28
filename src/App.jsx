@@ -1,26 +1,37 @@
 import { Routes, Route } from 'react-router-dom';
 import SharedLayout from './components/sauce/SharedLayout';
-import Services from './components/Main/services/services'
-import Projects from './components/Main/projects/projects'
-import About from './components/Main/team/team'
-import Talk from './components/Main/talk to us/talk';
-import Head from './components/Main/head/head'
+import Cases from './components/Main/cases/cases'
+import About from './components/Main/about/about'
+import Greet from './components/Main/greet/greet';
+// import Hero from './components/Main/hero/hero'
+import Soon from './components/Main/soon/soon';
 
+import Industries from './components/Main/about/industries/industries';
+import Services from './components/Main/about/services/services';
+import Approach from './components/Main/about/approach/approach';
+import Team from './components/Main/about/team/team';
 
 import './App.module.scss';
 
+
+// Change Soon on Hero
 
 function App () {
   return (
     
     <Routes>
       <Route path="/agency_" element={<SharedLayout />}>
-        <Route index element={<Head />} /> 
-        <Route path="/agency_/projects" element={<Projects />} /> 
-        <Route path="/agency_/services" element={<Services />} /> 
-        <Route path="/agency_/about" element={<About />} /> 
-        <Route path="/agency_/greet" element={<Talk />} /> 
-        <Route path="*" element={< Head/>} /> 
+        <Route index element={<Soon/>} />
+        {/* <Route index element={<Hero />} /> */}
+        <Route path="/agency_/cases" element={<Cases />} /> 
+        <Route path="/agency_/about" element={<About />}> 
+          <Route path="industries" element={<Industries/>}/>
+          <Route path="services" element={<Services/>}/>
+          <Route path="approach" element={<Approach/>}/>
+          <Route path="team" element={<Team/>}/>
+        </Route>
+        <Route path="/agency_/greet" element={<Greet />} /> 
+        {/* <Route path="*" element={< Hero/>} />  */}
       </Route>
     </Routes>
     

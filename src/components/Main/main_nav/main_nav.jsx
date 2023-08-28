@@ -2,15 +2,15 @@ import React, { useRef, useEffect } from 'react';
 import { Suspense } from "react";
 import { Link, Outlet } from "react-router-dom";
 
-import styles from './main_nav.module.scss'
+// import styles from './main_nav.module.jsx'
 
 const Main_Nav = () => {
 
     return(
-        <div className={styles.main_nav}>
-        <div className={styles.main_outlet}> 
+        <div >
+        <div > 
         <Suspense>
-            <Outlet className={styles.main_outlet_color}/>
+            <Outlet />
         </Suspense>
         </div>
         </div>

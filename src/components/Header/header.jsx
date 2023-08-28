@@ -1,9 +1,12 @@
-import {Main, Label,List ,List_Item, Link} from './footer.module.jsx'
-import React, { useEffect } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
+import {Main, Wrapper, List, List_Item, StyledLink } from './header.module.jsx'
 
-const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-const Footer = () => {
+
+const Header = () => {
+
+    const startText = 'OILFACES';
+    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";  
 
     const animateText = (target, originalText) => {
         let iteration = 0;
@@ -22,7 +25,7 @@ const Footer = () => {
                 clearInterval(interval); 
             }
 
-            iteration += 1 / 3;
+            iteration += 1 / 5;
         }, 30);
     };
 
@@ -42,7 +45,7 @@ const Footer = () => {
     }, []);
 
     useEffect(() => {
-
+        
         const startLink = document.querySelector(".link");
         if (startLink) {
             animateText(startLink, startLink.dataset.value);
@@ -52,24 +55,31 @@ const Footer = () => {
             if (startLink) {
                 animateText(startLink, startLink.dataset.value);
             }
-        }, 30000); // 60000 миллисекунд = 1 минута
+        }, 60000); // 60000 миллисекунд = 1 минута
 
         return () => {
             clearInterval(minuteInterval);
         };
     }, []);
-    
-    
+
     return (
         <Main>
-            <Label> oilfaces 2023</Label>
-            <List>
-            <List_Item><Link href='/' className="link" data-value="instagram">instagram</Link></List_Item>
-            <List_Item><Link href='/' className="link" data-value="behance">behance</Link></List_Item>
-            <List_Item><Link href='/' className="link" data-value="linkedin">linkedin</Link></List_Item>
-        </List>
-        </Main>
+			<Wrapper> 
+			<StyledLink 
+                    data-value={startText} 
+                    to="/agency_" 
+                    className="link"
+                > 
+                    {startText} 
+            </StyledLink>
+			</Wrapper>
+			<List>
+                <List_Item><StyledLink to="/agency_/cases">Cases</StyledLink></List_Item>
+                <List_Item><StyledLink to="/agency_/about">About</StyledLink></List_Item>
+                <List_Item><StyledLink to="/agency_/greet">Say hi</StyledLink></List_Item>
+            </List>
+		</Main>
     )
 }
 
-export default Footer 
+export default Header 
