@@ -64,9 +64,9 @@ const Footer = () => {
         <Main>
             <Label> oilfaces 2023</Label>
             <List>
-            <List_Item><Link href='/' className="link" data-value="instagram">instagram</Link></List_Item>
+            <List_Item><Link href='https://www.instagram.com/oilfaces.agency/' className="link" data-value="instagram">instagram</Link></List_Item>
             <List_Item><Link href='/' className="link" data-value="behance">behance</Link></List_Item>
-            <List_Item><Link href='/' className="link" data-value="linkedin">linkedin</Link></List_Item>
+            <List_Item><Link href='https://www.linkedin.com/company/oilfaces/about/?viewAsMember=true' className="link" data-value="linkedin">linkedin</Link></List_Item>
         </List>
         </Main>
     )
