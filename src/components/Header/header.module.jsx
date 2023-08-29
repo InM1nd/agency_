@@ -17,8 +17,8 @@ const Main = styled.section`
 	z-index: 1;
 `
 const Wrapper = styled.div`
-	display: flex;
-	align-items: center;
+	/* display: flex; */
+	/* align-items: center; */
 	margin-left: 50px;
 	/* margin-top: 10px; */
 
