@@ -20,17 +20,17 @@ function App () {
   return (
     
     <Routes>
-      <Route path="/agency_" element={<SharedLayout />}>
+      <Route path="/" element={<SharedLayout />}>
         <Route index element={<Soon/>} />
         {/* <Route index element={<Hero />} /> */}
-        <Route path="/agency_/cases" element={<Cases />} /> 
-        <Route path="/agency_/about" element={<About />}> 
+        <Route path="/cases" element={<Cases />} /> 
+        <Route path="/about" element={<About />}> 
           <Route path="industries" element={<Industries/>}/>
           <Route path="services" element={<Services/>}/>
           <Route path="approach" element={<Approach/>}/>
           <Route path="team" element={<Team/>}/>
         </Route>
-        <Route path="/agency_/greet" element={<Greet />} /> 
+        <Route path="/greet" element={<Greet />} /> 
         {/* <Route path="*" element={< Hero/>} />  */}
       </Route>
     </Routes>
