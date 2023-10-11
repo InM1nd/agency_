@@ -7,6 +7,8 @@ const Main = styled.section`
     
     display: flex;
     align-items: center;
+
+    
 `
 
 export {Main}
