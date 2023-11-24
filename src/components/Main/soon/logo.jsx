@@ -6,7 +6,7 @@ import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF("/3D_Logo.gltf");
+  const { nodes, materials } = useGLTF("./3D_Logo.gltf");
 
   const chromeMaterial = new MeshStandardMaterial({
     color: "#050505", // Базовый цвет (можете оставить белый, так как текстура будет покрывать его)
