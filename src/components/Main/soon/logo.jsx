@@ -23,7 +23,6 @@ export default function Model(props) {
         receiveShadow
         geometry={nodes.mesh_0.geometry}
         material={chromeMaterial}
-        
       />
       <mesh
         castShadow

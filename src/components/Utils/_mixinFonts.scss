@@ -1,66 +1,17 @@
 @font-face {
-    font-family: "Cy Grotesk";   
-    font-weight: 800;
-    src: url('../Utils/fonts/cy-grotesk-grand-dark.woff2') format("woff2"),
-    url("../Utils/fonts/cy-grotesk-grand-dark.woff") format("woff");   
-  }
-
-@font-face{
-    font-family: "Gilroy";
-    src: url("../Utils/fonts/Gilroy-Regular.woff") format("woff"), 
-    url("../Utils/fonts/Gilroy-Regular.woff2") format("woff2");
-}
-   
-@font-face{
-    font-family: "Gilroy";
-    src: url("../Utils/fonts/Gilroy-Medium.woff") format("woff"), 
-    url("../Utils/fonts/Gilroy-Medium.woff2") format("woff2");
-}
-
-@font-face{
-    font-family: "Gilroy";
-    src: url("../Utils/fonts/Gilroy-Bold.woff") format("woff"), 
-    url("../Utils/fonts/Gilroy-Bold.woff2") format("woff2");
-}
-
-@font-face{
-    font-family: "Termina";
-    font-weight: 500;
-    src: url("../Utils/fonts/TerminaTest-Regular.woff2") format("woff2"), 
-    url("../Utils/fonts/TerminaTest-Regular.woff") format("woff") ;
-}
-
-@font-face{
-    font-family: "Termina";
+    font-family: "Times Now";
+    src: url("./fonts/TimesNow-BoldItalic.woff2") format("woff2"),
+         url("./fonts/TimesNow-BoldItalic.woff") format("woff");
     font-weight: 700;
-    src: url("../Utils/fonts/TerminaTest-Bold.woff2") format("woff2"), 
-    url("../Utils/fonts/TerminaTest-Bold.woff") format("woff") ;
+    font-style: italic;
 }
 
-@font-face{
-    font-family: "Termina";
-    font-weight: 800;
-    src:  url("../Utils/fonts/TerminaTest-Heavy.woff2") format("woff2"), 
-    url("../Utils/fonts/TerminaTest-Heavy.woff") format("woff");
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("./fonts/HelveticaNeueRegular.otf") format("otf");
 }
 
-@font-face{
-    font-family: "Termina";
-    font-weight: 900;
-    src:  url("../Utils/fonts/TerminaTest-Black.woff2") format("woff2"), 
-    url("../Utils/fonts/TerminaTest-Black.woff") format("woff");
-}
-
-// @font-face{
-//     font-family: "Roboto Flex";
-//     // font-weight: 500;
-//     src:  url("../Utils/fonts/RobotoFlex-Regular.woff2") format("woff2"), 
-//     url("../Utils/fonts/RobotoFlex-Regular.woff") format("woff");
-// }
-
-@font-face{
-    font-family: "Nunito Regular";
-    font-weight: 500;
-    src:  url("../Utils/fonts/Nunito-Regular.ttf") format("woff2"), 
-    
+@font-face {
+    font-family: "HelveticaNeueCyr";
+    src: url("./fonts/HelveticaNeueCyr-Roman.otf") format("otf");
 }
