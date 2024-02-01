@@ -6,19 +6,4 @@ export default defineConfig({
     base: './'
   })
 
-// https://vitejs.dev/config/
-// export default defineConfig({
-//   plugins: [react()],
-//   build: {
-//     rollupOptions: {
-//         output: {
-//             manualChunks: {
-//                 'vendor': [
-//                     'react',
-//                 ]
-//             }
-//         }
-//     }
-// }
-// })
 
