@@ -5,7 +5,7 @@ import { useFrame, Canvas } from "@react-three/fiber";
 
 import { PointLight } from "three";
 
-import Smile from "../../../img/other/OilfacesGif_1.gif";
+import Smile from "../../../img/other/OilfacesGif.gif";
 
 
 
